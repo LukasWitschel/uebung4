@@ -10,6 +10,7 @@ package org.hbrs.se.ws20.uebung1.control;
  */
 
 public interface Translator {
+	// Translator öffentlich, damit der Zugriff gegeben ist.
 	
 	double version = 1.0; // Version des Interface
 

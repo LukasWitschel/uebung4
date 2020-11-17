@@ -4,6 +4,7 @@ import org.hbrs.se.ws20.uebung1.control.*;
 import org.hbrs.se.ws20.uebung1.control.factory.Factory;
 
 public class Client {
+	// public um zugriff gestatten
 
 	/*
 	 * Methode zur Ausgabe einer Zahl auf der Console

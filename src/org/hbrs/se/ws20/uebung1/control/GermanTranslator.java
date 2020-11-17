@@ -15,7 +15,7 @@ public class GermanTranslator implements Translator {
 		String erg = "";
 		try {
 			erg = zahlen[  number - 1 ];
-		} catch (ArrayIndexOutOfBoundsException e) {
+		} catch (ArrayIndexOutOfBoundsException e) { // ungegrüfte exception (Sie kann muss aber nicht aufgefangen werden)
 			erg = "Übersetzung der Zahl " + number + " nicht möglich (" + Translator.version + ")";}
 		return erg;
 	}
