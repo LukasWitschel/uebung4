@@ -1,4 +1,7 @@
 package org.hbrs.se.ws20.uebung2;
+/*
+ *lwitsc2s
+ */
 
 /*
 * @overwrite Methode nicht in Member möglich, daher auslagerung in eigene Klasse

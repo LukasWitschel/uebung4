@@ -1,9 +1,13 @@
 package org.hbrs.se.ws20.uebung2;
 /*
+ *lwitsc2s
+ */
+/*
 *Die Klasse ContainerException bitte selber implementieren!
 * Der StackTrace dieser Exception sollte folgendes exakt ausgeben:
 * „Das Member-Objekt mit der ID [hier die ID des Objekts] ist bereits vorhanden!“
  */
+
 
 public class ContainerException extends Exception{
 

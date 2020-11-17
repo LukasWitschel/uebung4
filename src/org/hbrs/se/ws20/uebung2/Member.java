@@ -1,4 +1,7 @@
 package org.hbrs.se.ws20.uebung2;
+/*
+ *lwitsc2s
+ */
 
 public interface Member {
 
