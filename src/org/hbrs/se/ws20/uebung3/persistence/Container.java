@@ -20,7 +20,23 @@ public class Container {
 	 * bei der Bewahrung der Konsistenz vom Key und Value (siehe TestStore, letzter Test)
 	 */
 	private List<Member> liste = new ArrayList<Member>();
-	
+/*
+*CR1
+ */
+	private static Container instance ;
+
+	public static synchronized Container getInstance() { // static synchronized method will lock the class instead of the object
+		if (instance == null) {
+			instance = new Container();
+		}
+		return instance;
+	}
+
+	public void store() throws PersistenceException	{
+
+	}
+
+
 	
 	/*
 	 * Methode zum Hinzufuegen einer Member.
