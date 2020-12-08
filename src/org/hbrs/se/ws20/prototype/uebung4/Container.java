@@ -84,7 +84,7 @@ public class Container {
 			}
 			// Auswahl der bisher implementierten Befehle:
 			if ( strings[0].equals("dump") ) {
-				startAusgabe();
+		 		startAusgabe();
 			}
 			// Auswahl der bisher implementierten Befehle:
 			if ( strings[0].equals("enter") ) {
